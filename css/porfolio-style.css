@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+@import url('https://fonts.cdnfonts.com/css/d-din');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+html {
+	background-color: black;
+}
+
+
+.logo {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background-color: #FAF8CA;
+	border-radius: 50%;
+	background-color: #FAF8CA;
+	margin-top: 10px;
+
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* max-width: 1200px; */
+	margin-left: 45px;
+	margin-right: 45px;
+	font-family: 'Inter', sans-serif;
+	font-size: 19px;
+	/* margin-top: 10px; */
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin-top: 20px;
+}
+
+nav li {
+	margin-left: 18px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.highlight {
+	color: #FAF8CA;
+}
+
+.work {
+	color: #FAF8CA;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	text-decoration-color: #FAF8CA;
+}
+
+.test-flex {
+	margin-top: 40px;
+}
+
+.flex-container-video {
+	margin-top: 40px;
+}
+
+.p {
+	color: white;
+}
+
+.ClaraCarreira {
+	color: white;
+	font-size: 50px;
+	font-family: 'Cormorant Garamond', serif;
+	;
+	/* margin-top: 90px; */
+	margin-left: 5px;
+	/* margin-bottom: -30px; */
+	/* margin-right: 400px; */
+}
+
+.Clara {
+	border-bottom-style: solid;
+	border-bottom-color: #FAF8CA;
+}
+
+.ClaraCarreira2 {
+	color: white;
+	font-size: 50px;
+	font-family: 'Cormorant Garamond', serif;
+	margin-top: 60px;
+	margin-left: 5px;
+
+
+}
+
+.h2 {
+	color: #FAF8CA;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Inter', sans-serif;
+	margin-top: -40px;
+	margin-left: 5px;
+	margin-bottom: 30px;
+
+}
+
+
+/* .container-texto-sobremi {
+	color: white;
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+} */
+
+.current {
+	float: left;
+	font-size: 14px;
+	font-family: 'Inter', sans-serif;
+	margin-left: 49px;
+	margin-top: 50px;
+	margin-bottom: 120px;
+	/* margin-right: 70px; */
+	color: white;
+}
+
+.BC {
+	float: right;
+	margin-left: 40px;
+	font-size: 14px;
+	font-family: 'Inter', sans-serif;
+	margin-top: 50px;
+	color: white;
+}
+
+.underlined {
+	text-decoration: none;
+	color: #FAF8CA;
+}
+
+.underlined:hover {
+	color: #e5e5d7;
+	border-bottom: 1px solid #FAF8CA;
+}
+
+.flex-container-video {
+	color: wheat;
+}
+
+.video-memoji {
+	width: 15%;
+	height: 20%;
+	margin-right: 120px;
+}
+
+.atrevia {
+	color: #FAF8CA;
+}
+
+.ironhack {
+	color: #FAF8CA;
+}
+
+.imagen-mua2 {
+	/* float: left;
+	margin-right: 10px;
+	margin-top: 100px; */
+	width: 100%;
+	height: auto;
+}
+
+.imagen-derecha {
+	float: right;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 100px;
+}
+
+.container {
+	overflow: hidden;
+}
+
+img {
+	float: left;
+	/* margin-right: 20px; */
+	height: 416.56px;
+}
+
+.texto-imagen {
+	/* display: inline-block; */
+	/* margin-left: 10px; */
+	font-size: 10px;
+}
+
+.flex-container {
+	display: flex;
+
+
+}
+
+.BC {
+	margin-left: 60px;
+}
+
+.articles-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 140px;
+	font-size: 16px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	color: white;
+	font-family: 'Inter', sans-serif;
+
+}
+
+.imagen-mua {
+	margin-top: -70px;
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+
+.articles-container article:hover .imagen-mua {
+	transform: translateY(-15px);
+	opacity: 0.3;
+}
+
+.imagen-izquierda {
+	margin-top: 20px;
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.imagen-gameness {
+	margin-top: 20px;
+	height: 418.16px;
+	width: 597.05px;
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.articles-container article:hover .imagen-gameness {
+	transform: translateY(-15px);
+	opacity: 0.3;
+}
+
+.articles-container article:hover .imagen-izquierda {
+	transform: translateY(-15px);
+	opacity: 0.3;
+}
+
+.articles-container article .texto-hover-arriba {
+	position: absolute;
+	/* Añade posición absoluta */
+	top: 40%;
+	/* Posiciona verticalmente */
+	left: 50%;
+	/* Posiciona horizontalmente */
+	transform: translate(-50%, -50%);
+	/* Centra el elemento */
+	color: #FAF8CA;
+	font-size: x-large;
+	opacity: 0;
+	/* Oculta el elemento */
+	transition: opacity 0.5s ease-in-out;
+	/* Añade transición de opacidad */
+}
+
+.articles-container article:hover .texto-hover-arriba {
+	opacity: 1;
+
+}
+
+.articles-container article .texto-hover {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FAF8CA;
+	font-size: x-large;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+
+}
+
+.articles-container article:hover .texto-hover {
+	opacity: 1;
+}
+
+
+
+.thenonboudariesoflove {
+	float: left;
+
+	height: 418.16px;
+	transition: transform 0.2s ease-in-out;
+}
+
+.thenonboudariesoflove:hover {
+	transform: translate(5px, -5px);
+}
+
+.articles-container article {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: calc(45% - 10px);
+
+}
+
+.texto-imagen {
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: right;
+}
+
+.p-gameness:hover {
+	text-decoration-color: #FAF8CA;
+}
+
+
+
+.texto-hover-arriba {
+	font-family: 'Inter', sans-serif;
+}
+
+footer {
+	background-color: black;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	align-items: bottom;
+}
+
+.redes-sociales {
+	display: flex;
+
+}
+
+.redes-sociales a {
+	margin-right: 10px;
+	color: #FAF8CA;
+	width: 30px;
+	height: 30px;
+
+}
+
+.derechos-reservados {
+	text-align: right;
+	font-size: 18px;
+	font-family: 'Inter', sans-serif;
+	margin-right: 10px;
+	color: white;
+	font-weight: lighter;
+
+}
+
+.fa-linkedin {
+	font-size: 26px;
+	transition: transform 0.5s ease-in-out;
+}
+
+.fa-linkedin:hover {
+	transform: translateY(-15px);
+}
+
+.fa-medium {
+	font-size: 26px;
+	transition: transform 0.5s ease-in-out;
+}
+
+.fa-medium:hover {
+	transform: translateY(-15px);
+}
+
+.fa-behance {
+	font-size: 26px;
+	transition: transform 0.5s ease-in-out;
+}
+
+.fa-behance:hover {
+	transform: translateY(-15px);
+}
+
+.test-flex {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 45px;
+	align-items: center;
+}
